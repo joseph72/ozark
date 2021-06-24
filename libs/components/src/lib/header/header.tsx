@@ -7,7 +7,7 @@ export function Header(props: HeaderProps) {
   return (
     <div className="bg-black h-16 items-center flex px-9">
       <div className="logo cursor-pointer">
-        <img className="h-16" src="assets/images/logo.svg" alt="" />
+        <img className="h-16 w-auto" src="assets/images/logo.svg" alt="" />
       </div>
       <div className="navMenu flex flex-1 ml-6 items-center">
         <a href="!" className="flex items-center px-3">

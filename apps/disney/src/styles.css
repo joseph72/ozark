@@ -3,8 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+}
 body{
   color: white;
   background: #040714;
   font-family: 'Lato', sans-serif;
+}
+.slick-slider.slick-list {
+  overflow: visible !important;
 }

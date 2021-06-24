@@ -15,12 +15,15 @@
             "main": "apps/disney/src/main.tsx",
             "polyfills": "apps/disney/src/polyfills.ts",
             "tsConfig": "apps/disney/tsconfig.app.json",
-            "assets": ["apps/disney/src/favicon.ico", "apps/disney/src/assets",
+            "assets": [
+              "apps/disney/src/favicon.ico",
+              "apps/disney/src/assets",
               {
                 "input": "libs/shared-lib/src/lib",
                 "glob": "**/*",
                 "output": "assets"
-              }],
+              }
+            ],
             "styles": ["apps/disney/src/styles.css"],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
